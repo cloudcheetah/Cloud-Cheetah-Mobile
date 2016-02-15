@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/settings_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/customers_layout"
+                android:background="@color/tab_background"
+                android:padding="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_account_circle_black_24dp"
+                    android:layout_weight="1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/customers"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/customers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/customers_layout"
+                android:id="@+id/employees_layout"
+                android:layout_marginTop="2dp"
+                android:background="@color/tab_background"
+                android:padding="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_account_circle_black_24dp"
+                    android:layout_weight="1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/employees"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/employees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/employees_layout"
+                android:id="@+id/vendors_layout"
+                android:layout_marginTop="2dp"
+                android:background="@color/tab_background"
+                android:padding="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_account_circle_black_24dp"
+                    android:layout_weight="1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/vendors"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/vendors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/vendors_layout"
+                android:id="@+id/items_layout"
+                android:layout_marginTop="2dp"
+                android:background="@color/tab_background"
+                android:padding="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_book_black_24dp"
+                    android:layout_weight="1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/items"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/items"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_below="@+id/items_layout"
+                android:id="@+id/chart_of_accounts_layout"
+                android:layout_marginTop="2dp"
+                android:background="@color/tab_background"
+                android:padding="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_insert_chart_black_24dp"
+                    android:layout_weight="1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/chart_of_accounts"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chart_of_accounts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/chart_of_accounts_layout"
+                android:id="@+id/expenses_layout"
+                android:layout_marginTop="2dp"
+                android:background="@color/tab_background"
+                android:padding="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_local_atm_black_24dp"
+                    android:layout_weight="1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/expenses"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/expense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/expenses_layout"
+                android:id="@+id/income_layout"
+                android:layout_marginTop="2dp"
+                android:background="@color/tab_background"
+                android:padding="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@mipmap/ic_local_atm_black_24dp"
+                    android:layout_weight="1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/income"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/income"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

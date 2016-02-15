@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mobile ERP</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_company">My Company</string>
+    <string name="e_procurement">E-Procurement</string>
+    <string name="human_resource">Human Resource</string>
+    <string name="crm">CRM</string>
+    <string name="inventory_management">Inventory Management</string>
+    <string name="customers">Customers</string>
+    <string name="employees">Employees</string>
+    <string name="vendors">Vendors</string>
+    <string name="items">Items</string>
+    <string name="chart_of_accounts">Chart of Accounts</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+</resources>
